@@ -1,4 +1,14 @@
-**Robot Navigation Challenge**
+<h1>Robot Navigation Challenge</h1>
+
+<h2>Methods</h2>
+
+**C++ Dynamic Programming**
+
+**Python Dynamic Programming**
+
+**Python Integer Programming**
+
+
 
 You have been provided with a navigation challenge. A course is set up in a 100m by 100m factory. Certain points within the space are designated as targets to visit to receive goods. These targets are ordered sequentially -- target 1, target 2, and so on. Your robot must start at (0,0). From there, it should navigate to target 1, stop for 10 seconds, proceed to target 2, stop for 10 seconds, and so on. The course concludes at (100,100), where the robot must stop for an additional 10 seconds.
 
@@ -12,11 +22,11 @@ Given the robot's speed, it might be advantageous to skip some targets and incur
 
 You may use any programming language you choose, as long as your submission is straightforward to run.
 
-**Input**
+<h2>Input</h2>
 
 There will be several test cases. Each test case begins with a line containing an integer, N (1 <= N <= 1000), which represents the number of targets on the course. Each of the following N lines describes a target with three integers, X, Y, and P, where (X, Y) is the target's location on the course (1 <= X, Y <= 99, X and Y in meters), and P is the penalty incurred if the target is missed (1 <= P <= 100). The targets are given in order -- the first line after N is target 1, the next is target 2, and so forth. All targets on a given course are unique, with at most one target at any given location. The end of input is marked by a line containing a single 0.
 
-**Output**
+<h2>Output</h2>
 
 For each test case, output a single decimal number indicating the smallest possible time for that course. Round the output to three decimal places (not truncated). Each result should be printed on its own line, with no blank lines between the results.
 
